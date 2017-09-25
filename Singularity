@@ -1,5 +1,5 @@
 Bootstrap: docker
-From: tensorflow/tensorflow:1.2.0-gpu
+From: tensorflow/tensorflow:1.2.0-gpu-py3
 
 %post
 	apt-get -y update
